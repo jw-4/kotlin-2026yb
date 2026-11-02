@@ -6,12 +6,14 @@ import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.appweek07.AppMode
+import com.appweek07.CartItem
+import com.appweek07.Student
 import com.appweek7.R
 import java.text.SimpleDateFormat
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-
     // UI Components
     private lateinit var radioGroup: RadioGroup
     private lateinit var radioStudentList: RadioButton
@@ -40,14 +42,14 @@ class MainActivity : AppCompatActivity() {
     private var currentMode = AppMode.STUDENT_LIST
 
     companion object {
-        private const val TAG = "KotlinWeek06App"
+        private const val TAG = "KotlinWeek07App"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Log.d(TAG, "onCreate: AppWeek06 started")
+        Log.d(TAG, "onCreate: AppWeek07 started")
 
         initializeData()
         setupViews()
