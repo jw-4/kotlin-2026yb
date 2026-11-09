@@ -259,7 +259,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Week 06: Git Branching and Feature Integration"
+            android:text="Week 09: Git Branching and Feature Integration"
             android:textSize="12sp"
             android:textColor="#bdc3c7"
             android:gravity="center"
